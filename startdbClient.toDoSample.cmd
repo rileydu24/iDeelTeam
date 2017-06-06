@@ -1,0 +1,1 @@
+mongo --port 27017 -u ideelAdmin -p test --authenticationDatabase ideelAdmin2017
