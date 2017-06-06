@@ -607,7 +607,7 @@ var AppService = (function () {
     function AppService(http) {
         this.http = http;
         //ost:string = 'http://localhost:3000';
-        this.host = 'http://teamideel.azurewebsites.net';
+        this.host = 'http://ideelbackup.azurewebsites.net';
         this.userId = "";
     }
     AppService.prototype.getAllJobs = function () {
@@ -756,7 +756,7 @@ var AuthService = (function () {
             responseType: 'token id_token',
             audience: 'https://rileydu.auth0.com/userinfo',
             //redirectUri: 'http://localhost:4200/callback',
-            redirectUri: 'http://teamideel.azurewebsites.net/',
+            redirectUri: 'http://ideelbackup.azurewebsites.net',
             //redirectUri: 'http://localhost:3000',
             scope: 'openid profile'
         });
