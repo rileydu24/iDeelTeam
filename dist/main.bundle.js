@@ -1384,9 +1384,6 @@ var JobDetailComponent = (function () {
         var wUsersID = this.userInfo.sub;
         var straightDash = wUsersID.indexOf('|') + 1;
         wUsersID = wUsersID.slice(straightDash);
-        //console.log(wUsersID);
-        //take this out!!!!!!!!!!!!!!!!
-        wUsersID = 1;
         //need to get wuser email
         var workerEmail = "lhyroger@gmail.com";
         //need to call to get one bUser to get email
